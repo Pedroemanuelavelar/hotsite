@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./JS/script.js"></script>
+</head>
+
+<body>
+
+    <!--Pluggin VLibras-->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!--Pluggin VLibras-->
+
+    <div class="row">
+        <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+                <a href="#" class="navbar-brand"><img src="images/LOGOeSporTIs.png" alt="LOGO e-SporTI 's"></a>
+                <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="my-nav" class="collapse navbar-collapse">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#games-disponiveis">Games Disponíveis <span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#avaliacao"> Avaliação<span class="sr-only">(current)</span></a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#organizacao-parceria">organizacao-parceria<span class="sr-only">(current)</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+
+            <div class="content">
+                <!--  -->
+                <h1 id="games-disponiveis">Games Disponíveis</h1>
+
+                <div class="card hover">
+                    <div class="card-img">
+                        <img src="images/CS1.6.jpeg" alt="CS1.6" width="300" height="225">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a class="hover">CS GO 1.6</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/CSGO.jpeg" alt="CSGO" width="290" height="250">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a>CS GO</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/DOTA2.jpeg" alt="Dota 2" width="299" height="225">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a>Dota 2</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/LOL.jpeg" alt="LoL" width="299" height="250">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a>LoL</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/Fortnite.jpg" alt="Fortnite" width="299" height="250">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a>Fortnite</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/MortalKombat.jpeg" alt="Mortal Kombat" width="299" height="250">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a>Mortal Kombat</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/Madden-NFL-17.jpg" alt="Madden NFL" width="299" height="250">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a>Madden NFL</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/NBA.jpeg" alt="NBA" width="299" height="250">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a>NBA</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/Pubg.jpeg" alt="Pubg Guy" width="299" height="250">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <a>PUBG</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h1 class="avaliacao" id="avaliacao">Avaliação</h1>
+
+                <div class="embed-responsive-item">
+                    <iframe
+                        src="https://docs.google.com/forms/d/1JjS4ne1MqPWtcSEao5FLdSbRwl4ui5fUVkoUG- prGbw/edit?usp=sharing"
+                        width="600" height="700" frameborder="0" marginheight="0" marginwidth="0" marg></iframe>
+                </div>
+
+
+            </div>
+
+            <h1 class="title" id="organizacao-parceria">Organização e Parceria </h1>
+
+            <div class="content">
+                <div class="img-thumbmail img-fluid img-center">
+                    <img src="images/LogoCBDS.png" width="105" height="105" alt="CBDS">
+                    <img class="space" src="images/sporti-100x97.png" alt="SporTI">
+                </div>
+
+            </div>
+
+
+        </div>
+        <!-- Card -->
+
+        <!-- Footer -->
+        <footer class="page-footer">
+
+            <!-- Copyright -->
+            <div class="text">© 2020 Copyright: CBDS em conjunto com <a href="https://sporti.com.br/"> SporTI</a>
+                <a href="https://site.cbds.org.br/">CBDS</a>
+            </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
+    </div>
+    </div>
+
+    <!-- <a>
+                    <h2>CS 1.6</h2>
+                    <img src="images/CS1.6.jpeg" alt="CS1.6" width="250" height="250">
+                </a>
+
+                <a>
+                    <h2>CS GO</h2>
+                    <img src="images/CSGO.jpeg" alt="CSGO" width="250" height="250">
+                </a>
+
+                <a>
+                    <h2>Dota 2</h2>
+                    <img src="images/DOTA2.jpeg" alt="Dota 2" width="250" height="250">
+                </a>
+
+                <a>
+                    <h2>LoL</h2>
+                    <img src="images/LOL.jpeg" alt="LoL"width="250" height="250">
+                </a>
+
+                <a>
+                    <h2>Fortnite</h2>
+                    <img src="images/Fortnite.jpg" alt="Fortnite" width="250" height="250">
+                </a>
+
+                <a>
+                    <h2>Mortal Kombat</h2>
+                    <img src="images/MortalKombat.jpeg" alt="Mortal Kombat" width="250" height="250">
+                </a>
+
+                <a>
+                    <h2>Madden NFL</h2>
+                    <img src="images/Madden-NFL-17.jpg" alt="Madden NFL" width="250" height="250">
+                </a>
+
+                <a>
+                    <h2>NBA</h2>
+                    <img src="images/NBA.jpeg" alt="NBA" width="250" height="250">
+                </a>
+
+                <a>
+                    <h2>PUBG</h2>
+                    <img src="images/Pubg.jpeg" alt="Pubg Guy" width="250" height="250">
+                </a> -->
+    </div>
+
+    <!-- bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+</body>
+
+</html>
